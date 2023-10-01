@@ -19,6 +19,7 @@
   color: var(--color-text);
   font-size: 2em;
   font-weight: 700;
+  font-family: 'Helvetica';
   letter-spacing: 1.75px;
   text-transform: uppercase;
   margin-bottom: 5%;
@@ -96,7 +97,7 @@
   padding: 2px 22px;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 930px) {
   .container {
     background-color: transparent;
     padding-left: 0;
@@ -105,11 +106,13 @@
 
   .content {
     flex-direction: column;
-    padding: 5%;
+    padding: 8%;
+    font-size: 60%;
   }
 
   .title {
-    padding: 5%;
+    padding-left: 5%;
+    font-size: 1.5em;
   }
 
   .aboutImage {
@@ -124,4 +127,5 @@
     padding-left: 0;
     padding-right: 0;
   }
+
 }

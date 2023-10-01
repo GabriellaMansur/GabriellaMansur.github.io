@@ -112,13 +112,22 @@
   z-index: 0;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 930px) {
+  .skillContainer {
+    font-size: 57%;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .skillLogo{
+    width: 70px;
+  }
+
   .mySkills {
-      width: 120px; /* Reduza a largura */
-      height: 120px; /* Reduza a altura */
+      width: 120px; 
+      height: 120px; 
   }
   
-
-  
-  /* Outros ajustes conforme necessário */
 }

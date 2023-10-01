@@ -32,7 +32,7 @@
     font-size: 4em;
     font-weight: 700;
     letter-spacing: 2px;
-    font-family: "Coolvetica";
+    font-family: 'Helvetica';
     margin-top: 33px;
     z-index: 2;
 }
@@ -66,7 +66,7 @@
 }
 
 .contentBtn >  a {
-    font-size: 2.5rem;
+    font-size: 2.5em;
     color: hsl(240, 17%, 76%);
     z-index: 3;
     transition: opacity 0.4s ease-in-out;
@@ -163,7 +163,6 @@
 .heroImg {
     width: 50%;
     z-index: 1;
-
     animation-name: floating ;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -213,25 +212,32 @@
     z-index: 0;
 }
 
-@media (max-width: 830px) {
-    html {
-        font-size: 40%;
-    }
-}
 
-@media screen and (max-width: 830px) {
+
+@media screen and (max-width: 930px) {
    
     .container {
       flex-direction: column-reverse;
       align-items: center;
-      margin-left: 5%;
-      margin-right: 5%;
+      margin-top: 10px;
+      margin: 5%;
+      font-size: 57%;
+      height: auto;
+      
     }
-  
+    
     .content {
       align-items: center;
       text-align: center;
     }
+    
+    .contentBtn a {
+        font-size: 2em;
+    }
 
+    .title  {
+        margin-top: 30%;
+        margin-bottom: 10%;
+    }
     
   }
