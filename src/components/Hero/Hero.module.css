@@ -1,0 +1,237 @@
+@import  "../../vars.css";
+
+
+
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    z-index: 1;
+    padding: 50px;
+    margin-right: 50px;
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+    max-width: 1800px;
+}
+
+
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+}
+
+.title {
+    font-size: 4em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: "Coolvetica";
+    margin-top: 33px;
+    z-index: 2;
+}
+
+
+.description {
+    font-size: 1.5em;
+    font-family: "Coolvetica";
+    color: #8d8d8d;
+    margin-top: 5px;
+    font-weight: 400;
+    z-index: 2;
+    letter-spacing: 2px;
+    animation: fadeIn 1s 1.8s backwards ;
+   
+}
+
+.aqui {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.contentBtn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    margin-left: 20px;   
+}
+
+.contentBtn >  a {
+    font-size: 2.5rem;
+    color: hsl(240, 17%, 76%);
+    z-index: 3;
+    transition: opacity 0.4s ease-in-out;
+    opacity: 1;
+}
+
+.contentBtn >  a:hover {
+    opacity: 0.5;
+}
+
+.containerBtn {
+    z-index: 10;
+    display: flex;
+
+    
+}
+
+.contactBtn {
+    padding: 10px 28px;
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Helvetica';
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #302f2f;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    top: 3px;
+}
+
+.contactBtn:before {
+    content: '';
+    background: linear-gradient(45deg, #007bff, #00a5ff, #00c4ff, #00d8ff, #00e7ff, #00f3ff, #00faff, #00ffff, #00d8ff);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.contactBtn:active {
+    color: #000;
+}
+
+.contactBtn:active:after {
+    background: transparent;
+}
+
+.contactBtn:hover:before {
+    opacity: 1;
+}
+
+.contactBtn:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+@keyframes glowing {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 400% 0%;
+    }
+}
+
+.heroImg {
+    width: 50%;
+    z-index: 1;
+
+    animation-name: floating ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 10px);
+    }
+    100% {
+        transform: translate(0,-0px);
+    }
+}
+
+
+
+.topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    min-height: 350px;
+    top: -128px;
+    left: -10vw;
+    border-radius: 764px;
+    background: rgba(25, 54, 109, 0.692);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+
+.bottomBlur {
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 350px;
+    min-height: 250px;
+    top: 246px;
+    right: -25vw;
+    border-radius: 764px;
+    background: rgba(25, 54, 109, 0.671);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+@media (max-width: 830px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+   
+    .container {
+      flex-direction: column-reverse;
+      align-items: center;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    .content {
+      align-items: center;
+      text-align: center;
+    }
+
+    
+  }
