@@ -23,7 +23,7 @@ export const About = () => {
               </li>
               <li className={styles.aboutItem}>
                 <div className={styles.aboutItemText}>
-                  <p>Adquiri meus conhecimentos majoritariamente por cursos online e livros disponibilizados gratuitamente na internet. Além disso, sempre me 
+                  <p>Adquiri meus conhecimentos majoritariamente por cursos online e livros disponibilizados gratuitamente na internet. Além disso, sempre 
                     utilizo da prática constante para aprimorar e consolidar meus conhecimentos. Também possuo nível intermediário B2 em inglês.
                   </p>
                   <ul className={styles.skills}>
