@@ -55,7 +55,7 @@ export const Projects = () => {
           <div className={styles.card}>
             <h3 className={styles.titleCard}>Projeto 1</h3>
             <img src={getImageUrl("projects/ods2.png")} alt="siteODS2"  />
-            <p className={styles.description}>Site do Objetivo de Desenvolvimento 2: Fome Zero, desenvolvido durante o curso ElasNaTech da JA Brasil. O site contém informações, 
+            <p className={styles.description}>Site do Objetivo de Desenvolvimento 2: Fome Zero, foi desenvolvido durante o curso ElasNaTech da JA Brasil. O site contém informações, 
             imagens e vídeos relacionados ao ODS2. A página é completamente responsiva, com um menu mobile, cards que possuem botões Leia Mais e uma seta que leva de volta ao topo
             da página, entre outros recursos. Minha atuação neste projeto foi como programadora frontend, além de ser responsável por escrever o conteúdo dos textos a partir de pesquisas 
             e projetar toda a estrutura de design.

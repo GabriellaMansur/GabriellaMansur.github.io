@@ -64,6 +64,22 @@ html {
   font-family: 'Helvetica';
   color: var(--color-text);
   text-decoration: none;
+  position: relative;
+}
+
+.menuItems a::after {
+  content: " ";
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.menuItems a:hover::after {
+  width: 100%;
 }
 
 .menuBtn {
@@ -80,7 +96,7 @@ html {
     align-items: flex-start;
   }
 
-.menu {
+  .menu {
     position: absolute;
     right: 0;
     margin-right: 10%;
@@ -115,4 +131,5 @@ html {
     display: flex;
     z-index: 1;
   }
+
 }

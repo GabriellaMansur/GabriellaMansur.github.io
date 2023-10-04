@@ -17,7 +17,6 @@
 }
 
 
-
 .content {
     position: relative;
     display: flex;
@@ -215,8 +214,12 @@
     }
 
     .title  {
-        margin-top: 30%;
+        margin-top: 15%;
         margin-bottom: 10%;
+    }
+
+    .heroImg {
+        margin-top: 20%;
     }
     
   }
