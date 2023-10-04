@@ -50,7 +50,7 @@ export const Hero = () => {
                   
                   <a 
                      
-                      href='../../contact'>
+                      href='#contact'>
 
                       <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
                   </a>
@@ -61,7 +61,6 @@ export const Hero = () => {
         <img src={getImageUrl("images/MyLogo.png")} alt="my-logo" className={styles.heroImg}  />
        
         <div className={styles.topBlur}></div>
-        <div className={styles.BottomBlur}></div>
         <div className={styles.containerFixed}></div>
     </section>
    

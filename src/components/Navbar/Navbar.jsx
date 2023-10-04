@@ -1,5 +1,4 @@
 import  { useState } from "react";
-
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -39,16 +38,16 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="/about">Sobre</a>
+            <a href="#about">Sobre</a>
           </li>
           <li>
-            <a href="#experience">Skills</a>
+            <a href="#skills">Skills</a>
           </li>
           <li>
             <a href="#projects">Projetos</a>
           </li>
           <li>
-            <a href="#about">Contato</a>
+            <a href="#contact">Contato</a>
           </li>
         </ul>
       </div>

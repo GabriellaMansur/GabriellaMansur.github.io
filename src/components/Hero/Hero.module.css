@@ -1,8 +1,6 @@
 @import  "../../vars.css";
 
 
-
-
 .container {
     position: relative;
     display: flex;
@@ -66,7 +64,7 @@
 }
 
 .contentBtn >  a {
-    font-size: 2.5em;
+    font-size: 2em;
     color: hsl(240, 17%, 76%);
     z-index: 3;
     transition: opacity 0.4s ease-in-out;
@@ -148,9 +146,6 @@
 
 
 
-
-
-
 @keyframes glowing {
     0% {
         background-position: 0% 0%;
@@ -198,22 +193,6 @@
 }
 
 
-.bottomBlur {
-    position: absolute;
-    width: 70vw;
-    height: 50vw;
-    min-width: 350px;
-    min-height: 250px;
-    top: 246px;
-    right: -25vw;
-    border-radius: 764px;
-    background: rgba(25, 54, 109, 0.671);
-    filter: blur(100px);
-    z-index: 0;
-}
-
-
-
 @media screen and (max-width: 930px) {
    
     .container {
@@ -232,7 +211,7 @@
     }
     
     .contentBtn a {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .title  {

@@ -76,7 +76,8 @@
   font-size: 1.5em;
   text-align: justify;
   color: #f1f1f1c7;
-  font-family: "Helvetica";
+  font-family: "Coolvetica", sans-serif;
+  
 }
 
 .skills {
@@ -87,6 +88,7 @@
   flex-wrap: wrap;
   gap: 6px;
   list-style: none;
+  font-family: "Coolvetica", sans-serif;
 }
 
 .skill {
