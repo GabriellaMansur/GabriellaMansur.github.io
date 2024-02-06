@@ -25,7 +25,12 @@
 
 .content {
   margin: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+
 
 .mySkills {
   background-color: var(--color-secondary);

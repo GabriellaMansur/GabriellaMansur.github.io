@@ -20,7 +20,7 @@ export const Hero = () => {
     <section className={styles.container}>
         <div className={styles.content}>
             <h1 className={styles.title}>Gabriella Mansur</h1>
-            <h2 className={styles.description}> Frontend / HMTL / CSS / JavaScript / ReactJS / Bootstrap / SQL / MySQL / SQL Server / Estudante de Análise e desenvolvimento de sistemas</h2>
+            <h2 className={styles.description}> BI / Data Science / Power BI e Excel / Python / SQL / JavaScript / ReactJS / HTML / CSS / Estudante de Análise e desenvolvimento de sistemas</h2>
             <div className={styles.aqui}>
               <div className={styles.containerBtn}>
                   <a 

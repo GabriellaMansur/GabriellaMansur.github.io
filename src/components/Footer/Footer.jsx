@@ -53,8 +53,8 @@ export const Footer = () => {
         </div>
       </div>
       <div className={styles.name}>
-        <h3>Gabriella Mansur</h3>
-        <p>gabriellamansur@gmail.com</p>
+        <h3>Gabriella Mansur Mesquita</h3>
+        <p>gabriellamesquita314@gmail.com</p>
       </div>
     </section>
   )

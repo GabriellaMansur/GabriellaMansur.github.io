@@ -12,11 +12,11 @@ export const About = () => {
                 <div className={styles.aboutItemText}>
                   <p>Cursando Análise e desenvolvimento de sistemas, sou autodidata e busco sempre aprender
                     com autonomia e com um olhar crítico diante do conhecimento. Tenho grande interesse pela área de desenvolvimento, 
-                    em especial programação frontend.
+                    em especial Dados e Business Intelligence.
                   </p>
                   <ul className={styles.skills}>
                       <li className={styles.skill}>Aprendizado contínuo</li>
-                      <li className={styles.skill}>Design e Front-end</li>
+                      <li className={styles.skill}>BI e Data Science</li>
                       <li className={styles.skill}>Tecnologia</li>
                   </ul>
                 </div>
